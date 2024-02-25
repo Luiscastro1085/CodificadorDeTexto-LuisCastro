@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de texto Luis Castro</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/media-query.css">
+    <link rel="shortcut icon" href="/assets/note.png" type="image/x-icon">
+</head>
+
+<body class="body">
+    <header>
+        <div class="header">
+            <a href="https://www.alura.com.br/" target="_blank" class="logo">
+                <img src="/assets/Vector.png" alt="Alura">
+            </a>
+            <div class="titulo__codificador">
+                <h1>Bem-vindo ao Codificador de Texto</h1>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <TEXtarea name="textear" class="textear" id="textear" cols="30" rows="10"
+                placeholder="Digite seu texto aquim"></TEXtarea>
+            <div class="terminos">
+                <p>!Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botones">
+                <button class="btn__criptografar" type="button">Criptografar</button>
+
+                <button class="btn__descriptografar" type="button">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <div class="descriptografar">
+                <img src="/assets/High quality products 1 1.png" alt="Texto no encontrado" id="procura">
+                <div class="mensagem__criptografado" id="mensagem__criptografado">
+                    <h2 id="titulo__mensagem">Nenhuma mensagem encontrada</h2>
+                    <p id="paragrafo">Digite o texto que deseja criptografar ou descriptografar</p>
+                </div>
+                <div class="retorno__texto__oculto" id="retorno__texto__oculto">
+                    <textarea name="textear__deco" class="textear__deco ocultar" id="textear__deco" cols="30"
+                        rows="10"></textarea>
+                    <div class="retorno__botao ocultar">
+                        <button class="botao__copy" id="botao__copy">Copiar</button>
+                        <button class="botao__limpar" id="botao__limpar">Limpar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3>Desenvolvido por Luis Castro © 2024 </h3>
+        <div class="iconos">
+            <a class="git__icon" href="https://github.com/Luiscastro1085" target="_blank">
+                <img src="/assets/github (1).png" alt="GitHub"></a>
+            <a class="linkedin__icon" href="https://www.linkedin.com/in/luis-castro-a6aa3221a/" target="_blank">
+                <img src="/assets/linkedin.png" alt="Linkedin"></a>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,312 @@
+/* Responsive desing */
+@media screen and (max-width: 1200px) {
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .textear {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 75%;
+        height: 30%;
+        left: 12%;
+        top: 10%;
+        padding: 20px;
+    }
+
+    .terminos {
+        justify-content: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 80%;
+        left: 12%;
+        top: 45%;
+    }
+
+    .descriptografar {
+        width: 75%;
+        height: 30%;
+        left: 12%;
+        top: 60%;
+    }
+
+    .mensagem__criptografado {
+        gap: 16px;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+    }
+
+    .descriptografar img {
+        display: none;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 1% 0;
+        position: absolute;
+        width: 77%;
+        left: 12%;
+        top: 50%;
+        gap: 10px;
+    }
+
+    .retorno__botao {
+        padding: 1% 0;
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        left: 12%;
+        top: 65%;
+        gap: 5px;
+    }
+
+    .botao__copy {
+        padding: 1%;
+        width: 50%;
+        height: 70%;
+    }
+
+    .btn__criptografar {
+        font-size: 30px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .btn__descriptografar {
+        font-size: 30px;
+        width: 80%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .btn__criptografar {
+        font-size: 20px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .btn__descriptografar {
+        font-size: 20px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .titulo__codificador h1 {
+        font-size: 30px;
+    }
+
+    .logo img {
+        height: 3rem;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .titulo__codificador h1 {
+        font-size: 25px;
+        padding: auto;
+    }
+
+    .logo img {
+        height: 2.5rem;
+        padding: 2px;
+        margin-left: 5px;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .footer {
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        width: 100%;
+        height: 6rem;
+        gap: 10px;
+        padding: 2px;
+    }
+
+    .footer img {
+        width: 40px;
+        height: 50px;
+        gap: 5px;
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        width: 5px;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .titulo__codificador h1 {
+        font-size: 20px;
+    }
+
+    .logo img {
+        height: 2rem;
+    }
+
+    .mensagem__criptografado {
+        gap: 16px;
+        position: absolute;
+        width: 80%;
+        top: 40%;
+        text-align: center;
+    }
+
+    .mensagem__criptografado h2 {
+        font-size: 18px;
+    }
+
+    .mensagem__criptografado p {
+        font-size: 15px;
+    }
+
+    .terminos p {
+        font-size: 15px;
+    }
+
+    .btn__criptografar {
+        font-size: 15px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .btn__descriptografar {
+        font-size: 15px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .textear {
+        font-size: 25px;
+    }
+
+    .iconos {
+        gap: 10px;
+        height: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .titulo__codificador h1 {
+        font-size: 13px;
+        padding: auto;
+    }
+
+    .logo img {
+        height: 1.5rem;
+        padding: 2px;
+        margin-left: 2px;
+    }
+
+    .header {
+        padding: 2px;
+
+    }
+
+    .textear {
+        width: 70%;
+        height: 30%;
+        left: 12%;
+        top: 8%;
+        padding: 15px;
+    }
+
+    .descriptografar {
+        width: 70%;
+        height: 30%;
+        left: 12%;
+        top: 60%;
+    }
+
+    .terminos p {
+        font-size: 12px;
+    }
+
+    .footer {
+
+        flex-direction: column;
+        font-size: 20px;
+        width: 100%;
+        height: 5rem;
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        width: 5px;
+        height: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .mensagem__criptografado {
+        gap: 16px;
+        position: absolute;
+        width: 80%;
+        top: 30%;
+        text-align: center;
+    }
+
+    .textear {
+        font-size: 20px;
+    }
+
+    .btn__criptografar {
+        font-size: 12px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .btn__descriptografar {
+        font-size: 12px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .botao__copy,
+    .botao__limpar {
+        padding: 1%;
+        width: 55%;
+        height: 50%;
+    }
+}
+
